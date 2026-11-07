@@ -7,7 +7,6 @@ user_input=int(input("Enter Your Number : "))
 # result = user_input % 2
 
 print(user_input % 2 == 0 )
-print("/n")
 
 
 
@@ -22,7 +21,6 @@ user_age = int(input("Enter Your Age : "))
 
 print(f"{user_age>=18} You are eligible for vote")
 print(f"{user_age>=60} You are senior citizen")
-print("/n")
 
 
 """
@@ -43,8 +41,6 @@ print(f"Sum is {sum}")
 print(f"Difference : is {difference}")
 print(f"Product is : {product}")
 print(f"reminder is : {reminder}")
-print("/n")
-print("/n")
 
 
 """
@@ -60,6 +56,5 @@ score3=int(input("Enter Marks 3 : "))
 total=score1+score2+score3
 avg = (score1+score2+score3)/3
 print(f"Your Total marks is {total} and average is {avg}")
-print("/n")
 
 
