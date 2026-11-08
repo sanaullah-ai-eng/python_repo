@@ -83,16 +83,15 @@ Print the largest of the three without using any built-in function."""
 num1=int(input("Enter Your Number 1 : "))
 num2=int(input("Enter Your Number 2 : "))
 num3=int(input("Enter Your Number 3 : "))
-if num1>num2>num3 :
-    print(f"{num1}is greatest")
-elif num2>num1>num3:
-    print(f"{num2} is greatest")
-elif num3>num2>num1:
-    print(f"{num3} is greatest.")
-elif num1==num2==num3 :
-    print("equal numbers ")
+if num1 >= num2 and num1 >= num3:
+    largest = num1
+elif num2 >= num1 and num2 >= num3:
+    largest = num2
 else:
-    print("invalide Number .")  
+    largest = num3
+
+print(f"The largest number is {largest}")
+
 
 
 
