@@ -26,5 +26,9 @@ for i in range(0,n):
     print(lst[i], end=" ")
     i+=1
 
+
+
+
+# using Eneumerate we can do things like this . 
 for index , value  in enumerate(lst):
     print(f"index = {index} and value {value}" )
