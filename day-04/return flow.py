@@ -80,3 +80,10 @@ calculate_marks(hindi=22, maths=11, history=99, comp=56, eng=87)   # positional 
 #lambda Functions 
 is_adult=lambda age: True if age>=18 else False
 print(is_adult(10))
+
+
+
+
+
+
+
