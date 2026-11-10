@@ -84,6 +84,15 @@ print(is_adult(10))
 
 
 
-
+#Question 
+# write a function  that called min_of_three and take three numbers and return the smallest without using any build in function 
+def min_of_three(num1,num2,num3):
+    if num1<num2 and num1<num3:
+        return num1
+    elif num2<num1 and num2<num3:
+        return num2
+    return num3
+minimum = min_of_three(10,-20,30)
+print(minimum)
 
 
