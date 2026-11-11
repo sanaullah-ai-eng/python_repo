@@ -32,3 +32,5 @@ for i in range(0,n):
 # using Eneumerate we can do things like this . 
 for index , value  in enumerate(lst):
     print(f"index = {index} and value {value}" )
+
+    
