@@ -1,4 +1,11 @@
 # Normal way 
+
+
+# List comprehenstion is always used to create a new list  
+# Existing list ka ander changes nahi krta  hota ham 
+
+
+
 square=[1,2,3,4,5]
 for i in range(1, 6 ):
     square.append(i*i)
@@ -39,3 +46,9 @@ print("Odd Numbers print")
 # using list comprehenstion create a list of square of odd numbers 
 new_list_odd_numbers =[i*i for i in range(1 , 21)  if i %2==1]
 print(new_list_odd_numbers)
+
+
+
+
+
+# Give a list of marks 
