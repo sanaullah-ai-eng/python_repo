@@ -31,3 +31,6 @@ def  removing_dublicate(lst):
 
 nums=[1,1,1,1,1,2,22,2,2,2,3,4,5,34,2,2,3,3,]
 print(removing_dublicate(nums))
+
+
+
