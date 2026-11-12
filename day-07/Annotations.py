@@ -6,3 +6,12 @@ print(calculate(1,2))
 def cal_mazimum(a:int,b:int,c:int) ->None:
     print(f"mazimum of a b c is {max(a,b,c)}")
 cal_mazimum(3,5,6)  # not returning somehting we cannot store this 
+
+
+
+# anotations examples 
+def maxi(nums:list[int])->int:
+    return max(nums)
+number = [ 11,2,23,555,666]
+maximum = maxi(number)
+print(maximum)
