@@ -10,8 +10,11 @@ cal_mazimum(3,5,6)  # not returning somehting we cannot store this
 
 
 # anotations examples 
-def maxi(nums:list[int])->int:
+def maxi(nums:list[int])->int:  # writing in annotations 
     return max(nums)
 number = [ 11,2,23,555,666]
 maximum = maxi(number)
 print(maximum)
+
+
+# Type annotations also knows as type hints 
