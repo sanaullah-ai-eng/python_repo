@@ -20,19 +20,4 @@ student1.display_details()
 
 
 
-# 1. Define the Class (Blueprint)
-class Car:
-    def __init__(self, brand, color):
-        self.brand = brand  # Attribute
-        self.color = color  # Attribute
 
-    def drive(self):        # Method
-        print(f"The {self.color} {self.brand} is driving.")
-
-# 2. Create Objects (Instances)
-car1 = Car("Toyota", "Red")
-car2 = Car("Honda", "Blue")
-
-# 3. Use the Objects
-car1.drive()  # Output: The Red Toyota is driving.
-car2.drive()  # Output: The Blue Honda is driving.
