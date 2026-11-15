@@ -15,8 +15,9 @@ print(Student.school)  # printing
 
 
 print(s1.school)
-Student.school="Govt Model Boys high school"
+Student.school="Govt Model Boys high school"  # class variable 
 print(s2.school)
+
 
 
 
