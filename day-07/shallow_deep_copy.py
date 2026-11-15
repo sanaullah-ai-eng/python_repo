@@ -44,9 +44,12 @@ import copy
 lst=[1,3,4 , [1, 4, 5, 8 ], 8 , 5 , 23]
 
 shallow=copy.deepcopy(lst)
-shallow[3][1] = 9999 
+shallow[3][1] = 9999   # 9999 store in the index 1st using the deepcopy 
 print(id(lst))
 print(id(shallow))
 print(lst)
 print(shallow)
+
+
+
  
