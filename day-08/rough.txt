@@ -1,3 +1,1 @@
-Hi this the bscs  class and you are learning the webiste development
-this is not something this is just the rough things ok lets 
-begin learning ok.
+hello worldhello world/n

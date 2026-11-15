@@ -14,5 +14,13 @@ except Exception :
 
 
 
+#write mode 
+with open('day-08/rough.txt' , 'w') as  f :
+    f.write('hello world')
+    print()
 
 
+#append mode
+with open('day-08/rough.txt' , 'a') as  f :
+    f.write('hello world/n')
+    print()
