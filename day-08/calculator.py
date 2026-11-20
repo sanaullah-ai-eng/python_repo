@@ -44,38 +44,3 @@ while True:
   else:
     print("Invalid Input")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print("Hello just continuing streek")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
