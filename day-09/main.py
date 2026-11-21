@@ -1,0 +1,2 @@
+import sanaullah
+sanaullah.wellcome()
