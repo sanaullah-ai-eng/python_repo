@@ -8,6 +8,3 @@ print(os.getcwd())
 # "C:/Users/Ali"        # forward slash (Windows mein bhi chalta hai)
 
 
-#Folder bnana and hatana 
-import os
-os.mkdir("data")
