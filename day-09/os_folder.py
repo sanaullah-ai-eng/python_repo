@@ -6,6 +6,3 @@ import os
 
 # os.rmdir("date")  
 print(os.listdir("."))  
-
-
-
